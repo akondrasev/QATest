@@ -1,4 +1,4 @@
-package com.bytelife.qatest.ui;
+package ui;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.impl.WebElementsCollection;
@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.open;
 /**
  * @author akondrasev
  */
-public class UiTests {
+public class UiTest {
 
     @Before
     public void setUp() {
