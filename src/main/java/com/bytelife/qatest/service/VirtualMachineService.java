@@ -14,7 +14,7 @@ import com.bytelife.qatest.model.VirtualMachine;
 public class VirtualMachineService {
 
   @Inject
-  private VirtualMachineDAO virtualMachineDAO;
+  VirtualMachineDAO virtualMachineDAO;
 
   public List<VirtualMachine> getAll() {
     return virtualMachineDAO.findAll();
