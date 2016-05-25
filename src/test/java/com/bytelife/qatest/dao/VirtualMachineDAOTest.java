@@ -12,8 +12,6 @@ import javax.persistence.EntityTransaction;
 public class VirtualMachineDAOTest {
 
     VirtualMachineDAO virtualMachineDAO;
-    EntityTransaction transaction;
-
 
     @Before
     public void setUp() throws Exception {
