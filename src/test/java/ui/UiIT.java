@@ -3,6 +3,7 @@ package ui;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.impl.WebElementsCollection;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -14,7 +15,7 @@ import static com.codeborne.selenide.Selenide.open;
 /**
  * @author akondrasev
  */
-public class UiTest {
+public class UiIT {
 
     @Before
     public void setUp() {
