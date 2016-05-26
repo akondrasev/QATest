@@ -1,4 +1,4 @@
-package ui;
+package com.bytelife.qatest.ui;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.impl.WebElementsCollection;
